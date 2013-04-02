@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="Nivax-007-0101343202002020-07" Publisher="CN=Naveed Shahid" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Get Ex Back</DisplayName>
+    <PublisherDisplayName>Ramez</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="mh.App">
+      <VisualElements DisplayName="Get Ex Back" Logo="Assets\Logo1.png" SmallLogo="Assets\30pxLogo.png" Description="Get Ex Back" ForegroundText="light" BackgroundColor="#FF0808">
+        <DefaultTile WideLogo="Assets\WideLogo.png" ShortName="Get Ex Back" ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FF0808" />
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.search" />
+      </Extensions>
+    </Application>
+  </Applications>
+</Package>
